@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/quote-machine-react/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/quote-machine-react/static/js/main.3a9043e4.chunk.js",
-    "main.js.map": "/quote-machine-react/static/js/main.3a9043e4.chunk.js.map",
+    "main.js": "/quote-machine-react/static/js/main.d7204b87.chunk.js",
+    "main.js.map": "/quote-machine-react/static/js/main.d7204b87.chunk.js.map",
     "runtime-main.js": "/quote-machine-react/static/js/runtime-main.2e477aca.js",
     "runtime-main.js.map": "/quote-machine-react/static/js/runtime-main.2e477aca.js.map",
     "static/js/2.3cc5f357.chunk.js": "/quote-machine-react/static/js/2.3cc5f357.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.2e477aca.js",
     "static/js/2.3cc5f357.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.3a9043e4.chunk.js"
+    "static/js/main.d7204b87.chunk.js"
   ]
 }
