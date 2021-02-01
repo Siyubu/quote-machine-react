@@ -15,6 +15,7 @@ export default function QuoteAndAuthor(props) {
             <div className="card-body" >
                 <p className="card-text" style={{color: quote.textColor}}>{quote.quote}</p>
                 <h5 className="card-title">- {quote.author}</h5>
+                <div class="buttons">
                 <button className="btn btn-primary"
                     onClick={() => { generateRandomQuote(quotes,colors) }}
                     type="submit">
@@ -26,6 +27,7 @@ export default function QuoteAndAuthor(props) {
                         window.open('https://twitter.com/intent/tweet/?text=' + encodeURIComponent(quote.quote + '--' + quote.author))
                     }}
                     type="submit"><i class="fab fa-twitter"></i> Share Quote</button>
+                </div>
             </div>
         </div>
         );
