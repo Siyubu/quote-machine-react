@@ -1,5 +1,5 @@
 {
-  "homepage":"https://siyubu.github.io/quote-machine-react",
+  "homepage": "https://siyubu.github.io/quote-machine-react",
   "name": "use-react",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "tinycolor2": "^1.4.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
