@@ -16,12 +16,12 @@ export default function QuoteAndAuthor(props) {
                 <p className="card-text" style={{color: quote.textColor}}>{quote.quote}</p>
                 <h5 className="card-title">- {quote.author}</h5>
                 <div class="buttons">
-                <button className="btn btn-primary"
+                <button className="btn btn-primary btn-sm"
                     onClick={() => { generateRandomQuote(quotes,colors) }}
                     type="submit">
                     <i class="fas fa-mouse"></i> Generate Quote</button>
                 <button 
-                    className="ml-3 btn btn-info"
+                    className="ml-3 btn btn-info btn-sm"
                     onClick={() => {
                         generateRandomQuote(quotes,colors);
                         window.open('https://twitter.com/intent/tweet/?text=' + encodeURIComponent(quote.quote + '--' + quote.author))
